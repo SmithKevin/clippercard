@@ -17,13 +17,13 @@ setup(
         ]
     },
     scripts=[],
-    url='https://github.com/anthonywu/clippercard',
+    url='https://github.com/SmithKevin/clippercard',
     license='LICENSE',
     description='Unofficial Python API for Clipper Card (transportation pass used in the San Francisco Bay Area)',
     long_description=open('README.rst').read(),
     install_requires=[
         'BeautifulSoup4 >= 4.3.2',
-        'configparser == 3.3.0r2',
+        'configparser == 3.3.0.post2',
         'docopt >= 0.6.1',
         'prettytable >= 0.7.2',
         'requests >= 2.2.1'
